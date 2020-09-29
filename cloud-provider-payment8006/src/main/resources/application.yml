@@ -13,7 +13,7 @@ spring:
     password: qwer1234
   cloud:
     consul:
-      host: 192.168.205.11
+      host: localhost
       port: 8500
       discovery:
         service-name: ${spring.application.name}
