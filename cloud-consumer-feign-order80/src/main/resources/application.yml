@@ -6,6 +6,7 @@ eureka:
     service-url:
       defaultZone: http://localhost:7001/eureka, http://localhost:7002/eureka
 ribbon:
+  # 开启OpenFeign客户端超时控制
   ReadTimeout: 5000
   ConnetTimeout: 5000
 logging:
