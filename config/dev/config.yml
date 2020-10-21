@@ -7,7 +7,7 @@ spring:
     config:
       server:
         git:
-          uri: https://github.com/WEHOOK/springcloud/
+          uri: https://github.com/WEHOOK/springcloud.git
           search-paths:
             config/dev
       label: master
