@@ -9,7 +9,7 @@ spring:
         git:
           uri: https://github.com/WEHOOK/springcloud/
           search-paths:
-            config/dev
+             config/dev
       label: master
 eureka:
   client:
